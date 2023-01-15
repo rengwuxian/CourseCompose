@@ -38,6 +38,9 @@
 * 6.6-从 produceState() 说起：协程（和其他）状态向 Compose 状态的转换：[./CourseComposeProduceState](./CourseComposeProduceState)
 * 6.7-snapshotFlow()：把 Compose 的 State 转换成协程 Flow：[./CourseComposeSnapshotFlow](./CourseComposeSnapshotFlow)
 * 7.1-自定义绘制：[./CourseComposeCustomDraw](./CourseComposeCustomDraw)
+* 7.2.1-自定义布局和 Layout()：[./CourseComposeCustomLayout](./CourseComposeCustomLayout)
+* 7.2.2-自定义布局：SubcomposeLayout()：[./CourseComposeSubcomposeLayout](./CourseComposeSubcomposeLayout)
+* 7.2.3-自定义布局：LookaheadLayout()：[./CourseComposeLookaheadLayout](./CourseComposeLookaheadLayout)
 
 # 使用方式
 - 第一节【1-两小时用 Compose 写个聊天界面】：点开上面第一节的链接，把 WeCompose 仓库 clone 到本地就行了。
