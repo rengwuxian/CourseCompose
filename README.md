@@ -42,6 +42,7 @@
 * 7.2.2-自定义布局：SubcomposeLayout()：[./CourseComposeSubcomposeLayout](./CourseComposeSubcomposeLayout)
 * 7.2.3-自定义布局：LookaheadLayout()：[./CourseComposeLookaheadLayout](./CourseComposeLookaheadLayout)
 * 7.3.1-自定义触摸和一维滑动监测：[./ComposeCourceDrag1D](./ComposeCourceDrag1D)
+* 7.3.2-嵌套滑动和 nestedScroll()：[./ComposeCourceNestedScroll](./ComposeCourceNestedScroll)
 
 # 使用方式
 - 第一节【1-两小时用 Compose 写个聊天界面】：点开上面第一节的链接，把 WeCompose 仓库 clone 到本地就行了。
