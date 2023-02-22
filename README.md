@@ -45,6 +45,7 @@
 * 7.3.2-嵌套滑动和 nestedScroll()：[./ComposeCourceNestedScroll](./ComposeCourceNestedScroll)
 * 7.3.3-自定义触摸：二维滑动监测：[./ComposeCourceDetectDragGestures](./ComposeCourceDetectDragGestures)
 * 7.3.4-自定义触摸：多指手势：[./CourseComposeDetectTransformGestures](./CourseComposeDetectTransformGestures)
+* 7.3.5-自定义触摸：最底层的 100% 自定义触摸算法：[./CourseComposeCustomTouch](./CourseComposeCustomTouch)
 
 # 使用方式
 - 第一节【1-两小时用 Compose 写个聊天界面】：点开上面第一节的链接，把 WeCompose 仓库 clone 到本地就行了。
