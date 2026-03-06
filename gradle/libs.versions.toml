@@ -1,0 +1,55 @@
+[versions]
+agp = "9.1.0-alpha01"
+kotlin = "2.3.10"
+coroutines = "1.10.2"
+ktx = "1.17.0"
+lifecycle = "2.10.0"
+compose-bom = "2026.02.01"
+activity = "1.12.4"
+nav3 = "1.0.1"
+junit = "4.13.2"
+android-junit = "1.3.0"
+emoji2 = "1.6.0"
+coil = "3.4.0"
+
+[libraries]
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+lifecycle-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+emoji2 = { group = "androidx.emoji2", name = "emoji2-bundled", version.ref = "emoji2" }
+compose-bom = { group = "androidx.compose", name = "compose-bom-alpha", version.ref = "compose-bom" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+icons = { group = "androidx.compose.material", name = "material-icons-extended" }
+compose-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
+lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose-android", version.ref = "lifecycle" }
+livedata-compose = { group = "androidx.compose.runtime", name = "runtime-livedata" }
+nav3 = { group = "androidx.navigation3", name = "navigation3-ui", version.ref = "nav3" }
+viewmodel-nav3 = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-navigation3", version.ref = "lifecycle" }
+m3-navsuite = { group = "androidx.compose.material3", name = "material3-adaptive-navigation-suite" }
+m3-nav3 = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation3" }
+coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
+coil-okhttp = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coil" }
+coil-gif = { group = "io.coil-kt.coil3", name = "coil-gif", version.ref = "coil" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version = "1.4.0" }
+customview = { group = "androidx.customview", name = "customview-poolingcontainer", version = "1.1.0" }
+
+compose-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+android-junit = { group = "androidx.test.ext", name = "junit", version.ref = "android-junit" }
+compose-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+compose-test-ui = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+
+[bundles]
+kotlinx = ["coroutines"]
+androidx = ["ktx", "lifecycle-ktx", "emoji2"]
+compose = ["material3", "icons", "compose-preview", "activity-compose", "lifecycle-compose",
+    "m3-navsuite", "m3-nav3", "livedata-compose"]
+nav3 = ["nav3", "viewmodel-nav3"]
+coil = ["coil-compose", "coil-okhttp", "coil-gif"]
+
+[plugins]
+android = { id = "com.android.application", version.ref = "agp" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin"}
