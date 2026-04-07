@@ -9,8 +9,11 @@ pluginManagement {
     }
     mavenCentral()
     gradlePluginPortal()
-    maven { url = uri("https://androidx.dev/snapshots/builds/14963400/artifacts/repository") }
   }
+}
+
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 
 @Suppress("UnstableApiUsage")
@@ -19,7 +22,6 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
-    maven { url = uri("https://androidx.dev/snapshots/builds/14963400/artifacts/repository") }
   }
 }
 
